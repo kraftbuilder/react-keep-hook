@@ -1,20 +1,20 @@
-# my-use-keep
+# React JS Keep
 
-**my-use-keep** is a lightweight React hook that handles mouse interactions: **mousedown**, **mousemove**, and **mouseup** with optional conditions.
+**reactjs-keep** is a lightweight React hook that handles mouse interactions: **mousedown**, **mousemove**, and **mouseup** with optional conditions.
 
 ## Installation
 
 ```bash
-npm install my-use-keep
+npm install reactjs-keep
 # or
-yarn add my-use-keep
+yarn add reactjs-keep
 ```
 
 ## Usage
 
 ```tsx
 import React, { useState } from "react";
-import useKeep from "my-use-keep";
+import useKeep from "reactjs-keep";
 
 function App() {
   const [pos, setPos] = useState({ x: 0, y: 0 });

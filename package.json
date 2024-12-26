@@ -1,5 +1,5 @@
 {
-  "name": "my-use-keep",
+  "name": "reactjs-keep",
   "version": "1.0.0",
   "description": "A React hook that simplifies handling mouse down, move, and up events.",
   "main": "dist/useKeep.js",
@@ -16,7 +16,7 @@
     "mouse",
     "drag"
   ],
-  "author": "Your Name",
+  "author": "Zafer Yardimci",
   "license": "MIT",
   "devDependencies": {
     "@types/react": "^18.0.0",
