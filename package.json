@@ -1,0 +1,28 @@
+{
+  "name": "my-use-keep",
+  "version": "1.0.0",
+  "description": "A React hook that simplifies handling mouse down, move, and up events.",
+  "main": "dist/useKeep.js",
+  "module": "dist/useKeep.esm.js",
+  "types": "dist/useKeep.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "typescript",
+    "mouse",
+    "drag"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "typescript": "^4.9.5"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  }
+}
