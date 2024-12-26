@@ -1,9 +1,10 @@
 import * as React from 'react';
+
 /**
  * useKeep
  * A custom hook to manage mouse interactions: mousedown, mousemove, mouseup.
  */
-export default function useKeep({ condition, onStart, onMove, onStop, }) {
+function useKeep({ condition, onStart, onMove, onStop, }) {
     const isDownRef = React.useRef(false);
     const handleMouseDown = React.useCallback((downEvent) => {
         if (condition && !condition(downEvent))
@@ -28,3 +29,6 @@ export default function useKeep({ condition, onStart, onMove, onStop, }) {
     }, [condition, onStart, onMove, onStop]);
     return handleMouseDown;
 }
+
+export { useKeep as default };
+//# sourceMappingURL=useKeep.esm.js.map
